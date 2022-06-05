@@ -24,7 +24,7 @@ public class Main {
             System.out.println("Exception is defined");
         }
     }
-//keywords try-catch and throw, throws logic
+
     static void ArrayElement(int[] arr, int correctData, int errorData) throws Catcher {
         try {
             System.out.println("Correct element:" + arr[correctData] + " index: " + correctData);
